@@ -174,60 +174,12 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\enemy.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\fps.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\gate.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\init.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\main.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\map.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\player.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\string.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="ヘッダー ファイル"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\commonData.h"
-				>
-			</File>
-			<File
-				RelativePath=".\commonResources.h"
-				>
-			</File>
-			<File
-				RelativePath=".\fps.h"
-				>
-			</File>
-			<File
-				RelativePath=".\hellsgate.h"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="リソース ファイル"
