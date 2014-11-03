@@ -48,8 +48,8 @@ void game_main::GameMain()
 
 		// ゲーム処理
 
-		// 裏画面と表画面を入れ替える
-		ScreenFlip();
+		// 描画処理
+		this->DrawProcess();
 	}
 
 	// 終了処理
@@ -96,16 +96,25 @@ bool game_main::systemProcess()
 	this->m_GetHitKeyStateAll();
 
 	// escキーで終了
-	if(m_Key[KEY_INPUT_ESCAPE] != 0)
+	if(m_Key[KEY_INPUT_ESCAPE] != keyPress::disable)
 	{
 		// escキーが押された
 		return false;
 	}
+	
+	return true;
+}
 
+// 描画処理
+void game_main::DrawProcess()
+{
 	//fps調整
 	fps.update();
 	
-	return true;
+	// 裏画面と表画面を入れ替える
+	ScreenFlip();
+
+	return;
 }
 
 // キー入力判定
@@ -118,15 +127,20 @@ int game_main::m_GetHitKeyStateAll()
 	// キーのステータス格納
 	for(int i = 0; i != KEY_MAX; i++)
 	{
-		if(GetHitKeyStateAll_Key[i] != 0)
+		if(GetHitKeyStateAll_Key[i] >= keyPress::enable)
 		{
-			// 指定したキーが押された(ずっとカウンタが回るので最初しか受け取らないようにすることも可能)
-			this->m_Key[i]++;
+			// 押し続けている
+			this->m_Key[i] = keyPress::keepEnable;
+		}
+		else if(GetHitKeyStateAll_Key[i] != keyPress::disable)
+		{
+			// 押された瞬間
+			this->m_Key[i] = keyPress::enable;
 		}
 		else
 		{
 			// 指定したキーは押されていない
-			this->m_Key[i] = 0;
+			this->m_Key[i] = keyPress::disable;
 		}
 	}
 

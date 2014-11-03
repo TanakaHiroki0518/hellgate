@@ -1,18 +1,14 @@
-﻿2014/11/03 3:04:37 にビルドを開始しました。
+﻿2014/11/03 16:03:53 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\usr\Desktop\git\hellgate\hellGate\hellGate\hellGate.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Debug\hellGate.unsuccessfulbuild" を作成しています。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt classes\fps\fps.cpp classes\game_main.cpp
-         fps.cpp
-         コードを生成中...
-         コンパイル中...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4482 /analyze- /errorReport:prompt classes\game_main.cpp
          game_main.cpp
-         コードを生成中...
        ManifestResourceCompile:
          すべての出力が最新のものです。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hellGate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.lib" /MACHINE:X86 Debug\hellGate.exe.embed.manifest.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hellGate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\usr\Desktop\git\hellgate\hellGate\Debug\hellGate.lib" /MACHINE:X86 Debug\hellGate.exe.embed.manifest.res
          Debug\fps.obj
          Debug\gameLayer.obj
          Debug\game_main.obj
@@ -30,4 +26,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:02.92
+経過時間 00:00:01.45

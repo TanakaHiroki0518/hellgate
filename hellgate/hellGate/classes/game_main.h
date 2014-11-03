@@ -10,6 +10,14 @@
 
 #define KEY_MAX 256
 
+
+enum keyPress
+{
+	disable = 0, // 押していない
+	enable, // 押した瞬間
+	keepEnable, // 押し続けている
+};
+
 class game_main
 {
 // 関数
@@ -25,6 +33,8 @@ private:
 	int m_GetHitKeyStateAll();
 	// システム処理
 	bool systemProcess();
+	// 描画処理
+	void DrawProcess();
 	// ゲーム初期化処理
 	void GameInit();
 	// ゲーム終了
