@@ -1,0 +1,25 @@
+﻿  FPS.cpp
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5684): warning C4100: 'pReceivePin' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5685): warning C4100: 'pmt' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5685): warning C4100: 'pPin' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5717): warning C4100: 'nPin' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5717): warning C4100: 'apPin' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5907): warning C4100: 'pEndTime' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(5907): warning C4100: 'pStartTime' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6027): warning C4100: 'pMediaSample' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6470): warning C4100: 'pReceivePin' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6470): warning C4100: 'direction' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6908): warning C4100: 'pMediaType' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6908): warning C4100: 'iPosition' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6910): warning C4100: 'mtOut' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\dxlib\dxdirectx.h(6910): warning C4100: 'mtIn' : 引数は関数の本体部で 1 度も参照されません。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\hellsgate.h(138): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 'vsnprintf' の宣言を確認してください。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\hellsgate.h(143): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 'vsnprintf' の宣言を確認してください。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\hellsgate.h(160): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\fps.h(34): warning C4512: 'FPS' : 代入演算子を生成できません。
+          c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\fps.h(14) : 'FPS' の宣言を確認してください。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\fps.cpp(37): warning C4244: '初期化中' : 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\usr\desktop\ゲーム制作\hellgate\hellgate\classes\framework\fps.cpp(67): warning C4244: '初期化中' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+  hellGate.vcxproj -> C:\Users\usr\Desktop\ゲーム制作\hellGate\Debug\hellGate.exe

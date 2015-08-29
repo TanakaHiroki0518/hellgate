@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\frameWork">
+      <UniqueIdentifier>{a80b794f-e5fe-41de-8382-865bbb8d3691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\frameWork">
+      <UniqueIdentifier>{ba1fe0d1-4ebe-4d9f-987b-02310de33f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\project">
+      <UniqueIdentifier>{5d6dbcdb-38f7-45dc-a7c7-1b3dbb809490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\project\Sprite">
+      <UniqueIdentifier>{eae2441a-560e-4224-8bde-e5c36db0f5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\project">
+      <UniqueIdentifier>{2d95f730-5fb2-4c1a-a1ad-08b0f10e3bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\project\Sprite">
+      <UniqueIdentifier>{636206de-427a-4013-8118-da56eaad28a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\frameWork\hellsgate.h">
+      <Filter>ヘッダー ファイル\frameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\project\Sprite\Sprite.h">
+      <Filter>ヘッダー ファイル\project\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\frameWork\FPS.h">
+      <Filter>ヘッダー ファイル\frameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\frameWork\Point.h">
+      <Filter>ヘッダー ファイル\frameWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\frameWork\main.cpp">
+      <Filter>ソース ファイル\frameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\project\Sprite\Sprite.cpp">
+      <Filter>ソース ファイル\project\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\gate.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\init.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\map.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\string.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\frameWork\Point.cpp">
+      <Filter>ソース ファイル\frameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\frameWork\FPS.cpp">
+      <Filter>ソース ファイル\frameWork</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
